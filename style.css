@@ -52,7 +52,7 @@ body{
     font-weight: bold; 
    
 }
-.listMenu li:hover ul{
+.listMenu ul li:hover ul{
     display: block;
 }
 .content {
@@ -80,6 +80,10 @@ body{
     color:white;
     margin: 3px;
 }
-
+.col1_1{
+    background: url("images/1908364606615453350.jpg");
+    width: 25%;
+    height: 200px;
+}
 
 
