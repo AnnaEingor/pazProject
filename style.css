@@ -81,9 +81,9 @@ body{
     margin: 3px;
 }
 .col1_1{
-    background: url("images/1908364606615453350.jpg");
+    background: url("images/1908364606615453350.jpg") no-repeat;
     width: 25%;
-    height: 200px;
+    height: 300px;
 }
 
 
