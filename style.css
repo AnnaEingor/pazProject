@@ -99,7 +99,7 @@ body{
 
 .content .firstRow{
   margin-top: 30px;
- }
+}
 
 #col1_1{
     background: url("images/1908364606615453350.jpg") no-repeat;
@@ -108,6 +108,7 @@ body{
     width: 33%;
     height: 450px;
     box-sizing: border-box;
+   
 }
 
 
@@ -118,13 +119,12 @@ body{
     width: 33.3%;
     height: 450px;
     box-sizing: border-box;
-    
-    }
+   }
 
 #col1_3{
     background: url("╫ñ╫צ╫º╫¿_-291_354410564000.jpg") no-repeat;
     background-size:100% 100%;
-    float: right;
+
     width: 33.3%;
     height: 450px;
     box-sizing: border-box;
