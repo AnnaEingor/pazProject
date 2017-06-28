@@ -29,21 +29,33 @@ body{
 .menu ul{
     position: relative;
 }
-.formKeyWord{
+.menu .formKeyWord{
     color: white;
     font-weight: bold;
-    text-align: left;
+    
+
 }
 
 /*прячем подменю*/
 .menu ul ul{
-    display: none; 
+    display: none;
     position: absolute;
 }
 /*выстраиваем по горизонтали*/
 .menu ul li{
     display: inline-block;
 }
+
+.menu ul li ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu ul li ul li {
+    display: list-item;
+}
+
+
 .menu ul li a{
     list-style: none;
     text-decoration: none;
@@ -55,14 +67,18 @@ body{
 .listMenu ul li:hover ul{
     display: block;
 }
+
+
 .content {
   padding-bottom: 90px;
+  width: 900px;
 }
 
 .foot{
   height: 56px;
   position: fixed;
   bottom: 0;
+  
 }
 .foot ul li{
     display: inline-block;
@@ -80,10 +96,29 @@ body{
     color:white;
     margin: 3px;
 }
+
 .col1_1{
     background: url("images/1908364606615453350.jpg") no-repeat;
-    width: 25%;
-    height: 300px;
+    float: left;
+    width: 30%;
+    position: relative;
+    left: 100px;
 }
 
+.col1_2{
+    background: url("Picture-046410251500.jpg") no-repeat;
+    float: left;
+    width: 30%;
+}
 
+.col1_3{
+    background: url("╫ñ╫צ╫º╫¿_-291_354410564000.jpg") no-repeat;
+    float: right;
+    width: 30%;
+}
+.inside_pic{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    width: 70%;
+}
